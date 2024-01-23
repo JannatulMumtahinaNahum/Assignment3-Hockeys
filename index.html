@@ -38,82 +38,116 @@
      
 </head>
 <body class="font-manrope">
-    <!-- Header section -->
-    <header class="container mx-auto">
-    <!-- Navbar -->
-    <div class="navbar py-7">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-            </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>Home</a></li>
-              <li><a>About</a></li>
-              <li><a>Pages</a></li>
-              <li><a>Blog</a></li>
-              <li><a>Contact</a></li>
-            </ul>
+  <!-- Header section -->
+  <header class="container mx-auto">
+  <!-- Navbar -->
+  <div class="navbar py-7">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </div>
-          <a class="text-2xl lg:text-4xl font-extrabold">Hockey<span class="text-colorno1">’</span>s</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 text-colorno3 text-base">
-            <li class="text-colorno1 font-bold"><a>Home</a></li>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
             <li><a>About</a></li>
             <li><a>Pages</a></li>
             <li><a>Blog</a></li>
             <li><a>Contact</a></li>
           </ul>
         </div>
-
-        <div class="navbar-end">
-          <a class="text-colorno3 mr-4 font-normal hidden lg:block"><i class="fa-solid fa-magnifying-glass"></i></a>
-          <a class="btn bg-colorno1 text-colorno4 font-bold text-sm lg:text-xl">Get Ticket</a>
-        </div>
+        <a class="text-2xl lg:text-4xl font-extrabold">Hockey<span class="text-colorno1">’</span>s</a>
       </div>
-      <!-- Banner section -->
-      <div class="carousel w-full lg:h-[550px] rounded-2xl">
-        <div id="slide1" class="carousel-item relative w-full">
-          <img src="Images/1.png" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" class="btn btn-circle">❮</a> 
-            <a href="#slide2" class="btn btn-circle">❯</a>
-          </div>
-        </div> 
-        <div id="slide2" class="carousel-item relative w-full">
-          <img src="Images/2.png" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" class="btn btn-circle">❮</a> 
-            <a href="#slide3" class="btn btn-circle">❯</a>
-          </div>
-        </div> 
-        <div id="slide3" class="carousel-item relative w-full">
-          <img src="Images/4.png" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn btn-circle">❮</a> 
-            <a href="#slide4" class="btn btn-circle">❯</a>
-          </div>
-        </div> 
-        <div id="slide4" class="carousel-item relative w-full">
-          <img src="Images/2.png" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" class="btn btn-circle">❮</a> 
-            <a href="#slide1" class="btn btn-circle">❯</a>
-          </div>
-        </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 text-colorno3 text-base">
+          <li class="text-colorno1 font-bold"><a>Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Pages</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Contact</a></li>
+        </ul>
       </div>
-      <div class="bg-black text-colorno4 lg:w-[720px] lg:h-[165px] rounded-xl p-7 relative lg:-inset-y-48 lg:ml-auto lg:mr-8">
-        <h2 class="font-extrabold text-2xl">Meet all the heroes from the field</h2>
-        <p class="text-base font-medium pt-2">
-            Here is a look at the Stanley Cup, the annual championship of the National Hockey League.Las Vegas Cup Title Cements Sin City as Hottest Pro Sports Town Posted on: June 14, 2023.</p>
+
+      <div class="navbar-end">
+        <a class="text-colorno3 mr-4 font-normal hidden lg:block"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a class="btn bg-colorno1 text-colorno4 font-bold text-sm lg:text-xl">Get Ticket</a>
       </div>
-    </header>
+    </div>
+   <!-- Banner section -->
+   <div class="carousel w-[335px] lg:w-full lg:h-[550px] rounded-2xl ml-[20px] lg:m-0">
+    <div id="slide1" class="carousel-item relative w-full">
+      <img src="Images/1.png" class=" w-full" />
+      <div class="absolute flex transform -translate-y-1/2 left-[120px] gap-1 top-40 lg:gap-3 lg:top-[500px]">
+        <a href="#slide4" class="btn btn-circle">❮</a> 
+        <a href="#slide2" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+    <div id="slide2" class="carousel-item relative w-full">
+      <img src="Images/2.png" class="w-full" />
+      <div class="absolute flex transform -translate-y-1/2 left-[120px] gap-1 top-40 lg:gap-3 lg:top-[500px]">
+        <a href="#slide1" class="btn btn-circle">❮</a> 
+        <a href="#slide3" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+    <div id="slide3" class="carousel-item relative w-full">
+      <img src="Images/4.png" class="w-full" />
+      <div class="absolute flex transform -translate-y-1/2 left-[120px] gap-1 top-40 lg:gap-3 lg:top-[500px]">
+        <a href="#slide2" class="btn btn-circle">❮</a> 
+        <a href="#slide4" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+    <div id="slide4" class="carousel-item relative w-full">
+      <img src="Images/2.png" class="w-full" />
+      <div class="absolute flex  transform -translate-y-1/2 left-[120px] gap-1 top-40 lg:gap-3 lg:top-[500px]">
+        <a href="#slide3" class="btn btn-circle">❮</a> 
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+  </div>
+  <div class="bg-black text-colorno4 w-[335px] lg:w-[720px] lg:h-[165px] rounded-xl p-7 relative lg:bottom-56 ml-[20px] lg:ml-auto lg:mr-8">
+    <h2 class="font-extrabold text-2xl">Meet all the heroes from the field</h2>
+    <p class="text-base font-medium pt-2">
+        Here is a look at the Stanley Cup, the annual championship of the National Hockey League.Las Vegas Cup Title Cements Sin City as Hottest Pro Sports Town Posted on: June 14, 2023.</p>
+  </div>
+  </header>
 
-    <!-- Main section -->
-    <main></main>
+  <!-- Main section -->
+  <!-- professional hockey club -->
+  <main class="container mx-auto">
+  <section class="text-center ">
+    <hr class="mt-10 mx-5 lg:m-0">
+    <h2 class="font-extrabold text-colorno2 text-2xl lg:text-4xl pt-8">Professional Hockeys Club</h2>
+    <p class="text-colorno3 font-medium text-base pb-5 mt-4 m-2 lg:w-[600px] relative lg:left-[450px]">Professional ice hockey (hockey) is the competition of ice hockey in which participants are paid to play.Professional competition began in North America in the United States—in Pennsylvania and Michigan—and in Canada around 1900. </p>
+    <hr class="mt-8 mx-5 lg:m-0">
+  </section>
+  <!-- facility section -->
+  <section class="flex flex-col lg:flex-row gap-4 mt-9 text-center justify-center">
+    <div>
+      <div class="radial-progress w-20 h-20 text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-colorno2 text-[22px] font-extrabold">87%</span></div>
+      <h3 class="text-colorno2 text-xl font-semibold mt-4">Prayer Facility</h3>
+      <p class="text-colorno3 text-xl m-3 lg:w-[280px]">Prayer is essential part for every human being thats why we have prayer facility.</p>
+    </div>
+    <div>
+      <!-- Experienced  Coach -->
+      <div class="radial-progress w-20 h-20 text-[#49D293]" style="--value:95;" role="progressbar"><span class="text-colorno2 text-[22px] font-extrabold">95%</span></div>
+      <h3  class="text-colorno2 text-xl font-semibold mt-4">Experienced  Coach</h3>
+      <p class="text-colorno3 text-xl m-3 lg:w-[280px]">We have professional experienced coach in our Professional Hockeys Club</p>
+    </div>
+    <div>
+      <!-- Senior player -->
+      <div class="radial-progress w-20 h-20 text-[#FFB546]" style="--value:90;" role="progressbar"><span class="text-colorno2 text-[22px] font-extrabold">90%</span></div>
+      <h3  class="text-colorno2 text-xl font-semibold mt-4">Senior Player</h3>
+      <p class="text-colorno3 text-xl m-3 lg:w-[280px]">We have senior player around 50+ in our Professional Hockeys Club</p>
+    </div>
+    <div>
+      <!-- Training Ground -->
+      <div class="radial-progress w-20 h-20 text-[#4C8DF1]" style="--value:80;" role="progressbar"><span class="text-colorno2 text-[22px] font-extrabold">80%</span></div>
+      <h3  class="text-colorno2 text-xl font-semibold mt-4">Training Ground</h3>
+      <p class="text-colorno3 text-xl m-3 lg:w-[280px]">We have Training Ground in our Professional Hockeys Club.</p>
+    </div>
+  </section>
+  </main>
 
-    <!-- footer section -->
-    <footer></footer>
+  <!-- footer section -->
+  <footer></footer>
 </body>
 </html>
