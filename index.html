@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"  data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HockeyBuzz</title>
+    <!-- Tailwind and DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/acce2a57e4.js" crossorigin="anonymous"></script>
+    <!-- google font Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+     <!-- Tailwind custom color -->
+     <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'colorno1': '#FF4240',
+                'colorno2': '#131318',
+                'colorno3': '#424247',
+                'colorno4': '#FFF',
+              }
+            }
+          }
+        }
+      </script>
+      <!-- Font family Manrope -->
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+     
+</head>
+<body class="font-manrope">
+    <!-- Header section -->
+    <header class="container mx-auto">
+    <!-- Navbar -->
+    <div class="navbar py-7">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="text-2xl lg:text-4xl font-extrabold">Hockey<span class="text-colorno1">’</span>s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-colorno3 text-base">
+            <li class="text-colorno1 font-bold"><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="navbar-end">
+          <a class="text-colorno3 mr-4 font-normal hidden lg:block"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a class="btn bg-colorno1 text-colorno4 font-bold text-sm lg:text-xl">Get Ticket</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main section -->
+    <main></main>
+
+    <!-- footer section -->
+    <footer></footer>
+</body>
+</html>
