@@ -420,16 +420,29 @@
         </div>
        </div>
        <!--  -->
-      <div class="flex flex-col lg:flex-row border rounded-xl gap-2 mt-4 lg:ml-2 lg:mt-0 lg:w-[50%] p-8 lg:p-12">
-        <div class=" lg:w-[50%] ">
+      <div class="grid grid-cols-1 lg:grid-cols-2 border rounded-xl gap-2 mt-4 lg:ml-2 lg:mt-0 lg:w-[50%] p-8 lg:p-12">
+        <div class="row-start-1 col-span-1 lg:w-[100%] ">
           <p class="text-colorno2 font-bold text-xl">Your Name</p>
-          <input class="w-full bg-[#78787a08] rounded-xl p-5" type="text" name="" id=""
+          <input class="w-full bg-[#5b5bd808] rounded-xl p-5" type="text" name="" id=""
               placeholder="Enter your full name">
       </div>
-      <div class=" lg:w-[50%] ">
+      <div class="row-start-2 lg:row-start-1 grid-cols-1 lg:w-[100%] ">
           <p class="text-colorno2 font-bold text-xl">Your Email</p>
           <input class="w-full bg-[#5b5bd808] rounded-xl p-5" type="email" name="" id="" placeholder="Enter your email">
       </div>
+      <div class="row-start-3 lg:row-start-2 grid-cols-1 lg:w-[100%] ">
+        <p class="text-colorno2 font-bold text-xl">Subject</p>
+        <input class="w-full bg-[#5b5bd808] rounded-xl p-5" type="text" name="" id="" placeholder="Enter Your Subject">
+    </div>
+    <div class="row-start-4 lg:row-start-2 grid-cols-1 lg:w-[100%] ">
+      <p class="text-colorno2 font-bold text-xl">Phone Number</p>
+      <input class="w-full bg-[#5b5bd808] rounded-xl p-5" type="text" name="" id="" placeholder="Enter Your Phone NUmber">
+  </div>
+  <div class="col-span-2 lg:w-[100%] ">
+    <p class="text-colorno2 font-bold text-xl">Message</p>
+   <textarea class="w-[100%] p-5 border rounded-xl bg-[#5b5bd808]" name="" id="" cols="30" rows="10" placeholder="Write Your Message"></textarea>
+</div>
+<button class="col-span-2 rounded-xl font-extrabold text-colorno4 bg-colorno1 p-2">Send Message</button>
     </div>
     </section>
     <section class="w-[100%]">
